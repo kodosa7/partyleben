@@ -2,12 +2,12 @@
 ## simple party compo system for commodore 64 written in basic
 
 ## aim
-At FOReVER party, no PC-based party system is being used unlike at other parties.  
-This makes the event unique but brings certain complications to the modern world  
-of technologies.
+At FOReVER party, no PC-based party system is being used unlike other parties.  
+This makes the event unique but brings certain complications to the modern technology
+world.
 
 Since the FOReVER C64 section never had a similar presentation system like Atari
-and ZX Spectrum had, it was at least a little bit disqualifying for it.
+and ZX Spectrum sections had and it was at least a little bit disqualifying for it.
 
 The aim of this program is to bring at least basic (and BASIC) functionailty  
 for showing compo entries during the compos.  
@@ -32,7 +32,7 @@ Having connected local monitors to both machines is very handy. Do not direct th
 compomachine (B) monitor screen to the crowd!
 
 ## installation
-Just run the PARTYLEBEN!0.3 from the D64 disk image
+Just run the PARTYLEBEN* from the D64 disk image.
 
 ## usage
 The program is used for a single compo, like the music compo for example.  
