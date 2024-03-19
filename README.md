@@ -37,11 +37,11 @@ compomachine (B) monitor screen to the crowd!
 Just run the PARTYLEBEN* from the D64 disk image.
 
 ## additional (not required) actions
-You can prepare your own PETSCII graphics in your favorite editor, just like PETMATE.
-![https://nurpax.github.io/petmate/]
-Save it as a BASIC .prg text file.
-Load PARTYLEBEN in an emulator (preferrably VICE) and copy/paste (merge) the text
-file to PARTYLEBEN. Adjust the program for your needs. The height of PETSCII should
+You can prepare your own PETSCII graphics in your favorite editor, just like PETMATE.  
+```https://nurpax.github.io/petmate/```  
+Save it as a BASIC .prg text file.  
+Load PARTYLEBEN in an emulator (preferrably VICE) and copy/paste (merge) the text  
+file to PARTYLEBEN. Adjust the program for your needs. The height of PETSCII should  
 be about 8 lines.
 
 ## usage
