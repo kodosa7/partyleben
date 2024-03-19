@@ -34,7 +34,7 @@ compomachine (B) monitor screen to the crowd!
 ## installation
 Just run the PARTYLEBEN* from the D64 disk image.
 
-## additional (not reqquired) actions
+## additional (not required) actions
 You can prepare your own PETSCII graphics in your favorite editor, just like PETMATE.
 Save it as a BASIC .prg text file.
 Load PARTYLEBEN in an emulator (preferrably VICE) and copy/paste (merge) the text
@@ -57,12 +57,16 @@ in the previous step. This step is mandatory!
 4. Set up the compo name by pressing ``4`` and entering name. Like "graphics", "music", "1k intro", etc.  
 This step is mandatory!
 
+5. SAVE the whole program to the disk or D64 image! Like ``SAVE"GRAPHICS",8,1``
+
+6. During the compos, LOAD the corresponding program version you have created for each compo.
+
 0. Start the compo by pressing ``0``. The PETSCII graphics is being drawn for a while,
 so be patient. After it is done, ``coming up`` message appears, you're ready to  
 switch this screen to the beamer screen.
 
 Pressing ``SPACE`` will advance to the next compoentry.
 
-After reaching the last entry, pressing ``SPACE`` will show ``xyz compo end`` message
+After reaching the last entry, pressing ``SPACE`` will show ``yourcomponame compo end`` message
 and then gets you back to the main menu.
 a
