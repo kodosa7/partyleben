@@ -1,7 +1,7 @@
 # partyleben!
 ## simple party compo system for commodore 64 written in basic
 
-![vice-screen-20240319233148](https://github.com/kodosa7/partyleben/assets/57393100/871533b1-df4a-4c1d-a904-3028c3bd1886)
+![vice-screen-20240319233148](https://github.com/kodosa7/partyleben/assets/57393100/f3c88a62-4c8f-4000-94d4-fe7ad0a8b7be)
 
 ## aim
 At FOReVER party, no PC-based party system is being used unlike other parties.  
@@ -38,6 +38,7 @@ Just run the PARTYLEBEN* from the D64 disk image.
 
 ## additional (not required) actions
 You can prepare your own PETSCII graphics in your favorite editor, just like PETMATE.
+![https://nurpax.github.io/petmate/]
 Save it as a BASIC .prg text file.
 Load PARTYLEBEN in an emulator (preferrably VICE) and copy/paste (merge) the text
 file to PARTYLEBEN. Adjust the program for your needs. The height of PETSCII should
