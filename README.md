@@ -42,7 +42,7 @@ https://nurpax.github.io/petmate/
 Save it as a BASIC .prg text file.  
 Load PARTYLEBEN in an emulator (preferrably VICE https://vice-emu.sourceforge.io/)  
 and copy/paste (merge) the text file to PARTYLEBEN. Adjust the program for your needs
-and colours. The height of PETSCII should be about ``6`` lines.
+and colours. The height of PETSCII should be about ``8`` lines.
 
 ## usage
 The program is used for a single compo, like the music compo for example.  
@@ -68,8 +68,7 @@ This step is mandatory!
 so be patient. After it is done, ``coming up`` message appears, you're ready to  
 switch this screen to the beamer screen.
 
-Pressing ``SPACE`` will advance to the next compoentry.
+Pressing ``SPACE`` will advance to the next compo entry.
 
 After reaching the last entry, pressing ``SPACE`` will show ``yourcomponame compo end`` message
 and then gets you back to the main menu.
-a
