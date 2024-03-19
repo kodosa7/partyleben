@@ -34,25 +34,35 @@ compomachine (B) monitor screen to the crowd!
 ## installation
 Just run the PARTYLEBEN* from the D64 disk image.
 
+## additional (not reqquired) actions
+You can prepare your own PETSCII graphics in your favorite editor, just like PETMATE.
+Save it as a BASIC .prg text file.
+Load PARTYLEBEN in an emulator (preferrably VICE) and copy/paste (merge) the text
+file to PARTYLEBEN. Adjust the program for your needs. The height of PETSCII should
+be about 8 lines.
+
 ## usage
 The program is used for a single compo, like the music compo for example.  
-1. press 1 to edit entries. It will list the BASIC from line 10000.
-Edit your entries manually in order they will be presented.  
-Remember to press RETURN after editing each line.  
-Leave unused lines intact.
 
-2. Press 2 to set amount of entries. This is just how many entries you have entered  
+1. press ``1`` to edit entries. It will list the BASIC from line ``10000``.
+Edit your entries manually in order they will be presented.  
+Remember to press ``RETURN`` after editing each line.  
+Leave unused lines intact!
+
+2. Press ``2`` to set amount of entries. This is just how many entries you have entered  
 in the previous step. This step is mandatory!
 
-3. You can list entries that will be used by pressing 3.
+3. You can list entries that will be used by pressing ``3``.
 
-4. Set up the compo name. Like "graphics", "music", "1k intro", etc.  
+4. Set up the compo name by pressing ``4`` and entering name. Like "graphics", "music", "1k intro", etc.  
 This step is mandatory!
 
-0. Start the compo by pressing 0. The PETSCII graphics is being drawn for a while,
-so be patient. After it is done, "coming up" message appears, you're ready to  
+0. Start the compo by pressing ``0``. The PETSCII graphics is being drawn for a while,
+so be patient. After it is done, ``coming up`` message appears, you're ready to  
 switch this screen to the beamer screen.
 
-Pressing SPACE will advance to the next compoentry.
+Pressing ``SPACE`` will advance to the next compoentry.
 
-After reaching the last entry, pressing SPACE will show "xyz compo end" message.
+After reaching the last entry, pressing ``SPACE`` will show ``xyz compo end`` message
+and then gets you back to the main menu.
+a
