@@ -1,6 +1,8 @@
 # partyleben!
 ## simple party compo system for commodore 64 written in basic
 
+![vice-screen-20240319233148](https://github.com/kodosa7/partyleben/assets/57393100/871533b1-df4a-4c1d-a904-3028c3bd1886)
+
 ## aim
 At FOReVER party, no PC-based party system is being used unlike other parties.  
 This makes the event unique but brings certain complications to the modern technology
