@@ -34,15 +34,15 @@ Having connected local monitors to both machines is very handy. Do not direct th
 compomachine (B) monitor screen to the crowd!
 
 ## installation
-Just run the PARTYLEBEN* from the D64 disk image.
+Just run the ``PARTYLEBEN*`` executable from the D64 disk image.
 
 ## additional (not required) actions
 You can prepare your own PETSCII graphics in your favorite editor, just like PETMATE.  
-```https://nurpax.github.io/petmate/```  
+https://nurpax.github.io/petmate/  
 Save it as a BASIC .prg text file.  
-Load PARTYLEBEN in an emulator (preferrably VICE) and copy/paste (merge) the text  
-file to PARTYLEBEN. Adjust the program for your needs. The height of PETSCII should  
-be about 8 lines.
+Load PARTYLEBEN in an emulator (preferrably VICE https://vice-emu.sourceforge.io/)  
+and copy/paste (merge) the text file to PARTYLEBEN. Adjust the program for your needs
+and colours. The height of PETSCII should be about ``6`` lines.
 
 ## usage
 The program is used for a single compo, like the music compo for example.  
@@ -60,7 +60,7 @@ in the previous step. This step is mandatory!
 4. Set up the compo name by pressing ``4`` and entering name. Like "graphics", "music", "1k intro", etc.  
 This step is mandatory!
 
-5. SAVE the whole program to the disk or D64 image! Like ``SAVE"GRAPHICS",8,1``
+5. SAVE the whole program to the disk or D64 image! Like ``SAVE"YOURCOMPONAME",8,1``
 
 6. During the compos, LOAD the corresponding program version you have created for each compo.
 
