@@ -69,19 +69,19 @@ If you have 5 entries in the compo:
 ...
 ```
 
-3. Press ``2`` to set amount of entries. This is just how many entries you have entered  
+2. Press ``2`` to set amount of entries. This is just how many entries you have entered  
 in the previous step. This step is mandatory!
 
-4. You can list entries that will be used by pressing ``3``.
+3. You can list entries that will be used by pressing ``3``.
 
-5. Set up the compo name by pressing ``4`` and entering name. Like "graphics", "music", "1k intro", etc.  
+4. Set up the compo name by pressing ``4`` and entering name. Like "graphics", "music", "1k intro", etc.  
 This step is mandatory!
 
-6. SAVE the whole program to the disk or D64 image! Like ``SAVE"YOURCOMPONAME",8,1``
+5. SAVE the whole program to the disk or D64 image! Like ``SAVE"YOURCOMPONAME",8,1``
 
-7. During the compos, LOAD the corresponding program version you have created for each compo.
+6. During the compos, LOAD the corresponding program version you have created for each compo.
 
-0. Start the compo by pressing ``0``. The PETSCII graphics is being drawn for a while,
+7. Start the compo by pressing ``0``. The PETSCII graphics is being drawn for a while,
 so be patient. After it is done, ``coming up <yourcomponame>`` message appears, you're ready to  
 switch this screen to the beamer screen.
 
