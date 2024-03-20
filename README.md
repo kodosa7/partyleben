@@ -8,7 +8,7 @@ At FOReVER party, no PC-based party system is being used unlike at other parties
 This makes the event unique but brings certain complications to the modern technology
 world.
 
-Since the FOReVER C64 section never had a similar presentation system like Atari
+Since the FOReVER C64 section never had a similar presentation system like Atari  
 and ZX Spectrum sections have, it was at least a little bit disqualifying.
 
 The aim of this program is to bring at least basic (and BASIC) functionailty  
