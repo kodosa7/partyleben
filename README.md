@@ -58,14 +58,14 @@ Leave unused lines intact!
 
 ## example
 If you have 5 entries in the compo:
-``10000 e$="compoentry1 by author1"
+```10000 e$="compoentry1 by author1"
 10010 e$="compoentry2 by author2"
 10020 e$="compoentry3 by author3"
 10030 e$="compoentry4 by author4"
 10040 e$="compoentry5 by author5"
 10050 e$=""
 10060 e$=""
-...``
+...```
 
 3. Press ``2`` to set amount of entries. This is just how many entries you have entered  
 in the previous step. This step is mandatory!
