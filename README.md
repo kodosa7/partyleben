@@ -56,7 +56,7 @@ Edit your entries manually in order they will be presented.
 Remember to press ``RETURN`` after editing each line to let them store into memory.  
 Leave unused lines intact!
 
-## example
+example:
 If you have 5 entries in the compo:
 ```
 10000 e$="compoentry1 by author1"
