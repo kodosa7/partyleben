@@ -65,7 +65,8 @@ If you have 5 entries in the compo:
 10040 e$="compoentry5 by author5"
 10050 e$=""
 10060 e$=""
-...```
+...
+```
 
 3. Press ``2`` to set amount of entries. This is just how many entries you have entered  
 in the previous step. This step is mandatory!
