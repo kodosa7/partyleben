@@ -1,7 +1,7 @@
 # partyleben!
 ## simple party compo system for commodore 64 written in basic
 
-![vice-screen-20240319233148](https://github.com/kodosa7/partyleben/assets/57393100/f3c88a62-4c8f-4000-94d4-fe7ad0a8b7be)
+![image](https://github.com/user-attachments/assets/995dbdd5-3341-4ccc-a11a-fb9d3005baaa)
 
 ## aim
 At FOReVER party, no PC-based party system is being used unlike at other parties.  
@@ -42,48 +42,54 @@ Just run the ``PARTYLEBEN*`` executable from the D64 disk image.
 ## additional (not required) actions
 - You can prepare your own PETSCII graphics in your favorite editor, just like PETMATE.  
 https://nurpax.github.io/petmate/  
-- Save it as a BASIC .prg text file.  
+- Save it as an ASM file and compile it to address $8000 WITHOUT the BASIC line.  
 - Load PARTYLEBEN in an emulator (preferrably VICE https://vice-emu.sourceforge.io/)  
-and copy/paste (merge) the text file to PARTYLEBEN.  
-- Adjust the program for your needs and colours. The height of PETSCII should be about ``8`` lines.
+and enter the emulator monitor (alt-M in WinVICE).
+- Load your image using command ```l "IMGNAME" 08 8000``` (name has to be in capital letters)  
+- exit the monitor with command '''x'''  
 
 ## usage
 The program is used for a single compo, like the music compo only, graphics compo only, etc...    
 
-1. press ``1`` to edit entries. It will list the BASIC from line ``10000``.
-Each entry is represented by one line starting ``<linenumber> e$="entry name by author"``.  
+1. press ``4`` to edit entries. It will list the BASIC from line ``10000``.
+Each entry is represented by one line starting ``<linenumber> e$="entry name by author          "``.  
 Edit your entries manually in order they will be presented.  
-Remember to press ``RETURN`` after editing each line to let them store into memory.  
+DO NOT change the length of the lines. That will destroy the picture in memory.  
+Remember to press ``RETURN`` after editing each line to let them store into memory.
+Replace dots with spaces in emply lines, if you add text to them.
+Keep text in the lines to be centered (add some spaces in the beginning):
+- Example:
+```10050 e$(6)="        new entry by author/group          "```
 Leave unused lines intact!
 
 example:
 If you have 5 entries in the compo:
 ```
-10000 e$="compoentry1 by author1"
-10010 e$="compoentry2 by author2"
-10020 e$="compoentry3 by author3"
-10030 e$="compoentry4 by author4"
-10040 e$="compoentry5 by author5"
-10050 e$=""
-10060 e$=""
+10000 e$(1)="          compoentry1 by author1          "
+10010 e$(2)="          compoentry2 by author2          "
+10020 e$(3)="          compoentry3 by author3          "
+10030 e$(4)="          compoentry4 by author4          "
+10040 e$(5)="          compoentry5 by author5          "
+10050 e$(6)="                                          "
+10060 e$(7)="                                          "
 ...
 ```
+After finished editing, type ```run``` and hit RETURN.
 
-2. Press ``2`` to set amount of entries. This is just how many entries you have entered  
+2. Press ``1`` to set amount of entries. This is just how many entries you have entered  
 in the previous step. This step is mandatory!
 
 3. You can list entries that will be used by pressing ``3``.
 
-4. Set up the compo name by pressing ``4`` and entering name. Like "graphics", "music", "1k intro", etc.  
-This step is mandatory!
+4. Set up the compo name by pressing ``2`` and entering name. Like "graphics", "music", "1k intro", etc.  
+This step is mandatory! Pressing RETURN sets the string to 'testcompo'.  
 
 5. SAVE the whole program to the disk or D64 image! Like ``SAVE"YOURCOMPONAME",8,1``
 
 6. During the compos, LOAD the corresponding program version you have created for each compo.
 
-7. Start the compo by pressing ``0``. The PETSCII graphics is being drawn for a while,
-so be patient. After it is done, ``coming up <yourcomponame>`` message appears, you're ready to  
-switch this screen to the beamer screen.
+7. Start the compo by pressing ``0``. The ``coming up <yourcomponame>`` message appears,
+   you're ready to switch this screen to the beamer screen.
 
 Pressing ``SPACE`` will advance to the next compo entry.
 
