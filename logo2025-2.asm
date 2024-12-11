@@ -1,42 +1,3 @@
-; 64tass -C -a --cbm-prg foo.asm -o foo.prg
-
-* = $8000          ; BASIC start address (#2049) 
-;.byte $0C, $08, $00, $00, $9E, $32, $30, $36 ; creates SYS 2061
-;.byte $31, $00, $00, $00
-
-start 
-    lda screen_001
-    sta $d020
-    lda screen_001+1
-    sta $d021
-    lda #$17
-    sta $d018
-
-    ldx #$00
-loop 
-    lda screen_001+2,x
-    sta $0400,x
-    lda screen_001+$3ea,x
-    sta $d800,x
-
-    lda screen_001+$102,x
-    sta $0500,x
-    lda screen_001+$4ea,x
-    sta $d900,x
-
-    lda screen_001+$202,x
-    sta $0600,x
-    lda screen_001+$5ea,x
-    sta $da00,x
-
-    lda screen_001+$2ea,x
-    sta $06e8,x
-    lda screen_001+$6d2,x
-    sta $dae8,x
-    inx
-    bne loop
-
-    rts
 
 
 ; PETSCII memory layout (example for a 40x25 screen)'
@@ -96,4 +57,4 @@ screen_001
 .byte $0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E
 .byte $0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E
 .byte $0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E
-.byte $0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E 
+.byte $0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E,$0E
