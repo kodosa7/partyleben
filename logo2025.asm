@@ -1,7 +1,7 @@
 ; 64tass -C -a --cbm-prg foo.asm -o foo.prg
 
-* = $4000          ; BASIC start address (#2049)
-.byte $0C, $08, $00, $00, $9E, $32, $30, $36 ; adds 12 bytes for Basic line, so the call address is '* + 12'
+* = $8000          ; BASIC start address (#2049)
+.byte $0C, $08, $00, $00, $9E, $32, $30, $36
 .byte $31, $00, $00, $00
 
 start 
