@@ -1,7 +1,7 @@
 # partyleben!
 ## simple party compo system for commodore 64 written in basic
 
-![image](https://github.com/user-attachments/assets/995dbdd5-3341-4ccc-a11a-fb9d3005baaa)
+![image](https://github.com/user-attachments/assets/28a33314-f3a9-4160-9840-3ca9fe58b995)
 
 ## aim
 At FOReVER party, no PC-based party system is being used unlike at other parties.  
@@ -51,47 +51,49 @@ and enter the emulator monitor (alt-M in WinVICE).
 ## usage
 The program is used for a single compo, like the music compo only, graphics compo only, etc...    
 
-1. press ``4`` to edit entries. It will list the BASIC from line ``10000``.
-Each entry is represented by one line starting ``<linenumber> e$="entry name by author          "``.  
-Edit your entries manually in order they will be presented.  
+1. press ``1`` to edit entries. It will list the BASIC from line ``10000``.
+At line 10000, you can change amount of entries for your compo and your componame.  
+The number of variable ```a``` must be between 01 and 10, including 0 if there are
+less than 10 entries, so e.g. ```a=06```.  
+The componame string ```c$``` must be 8 characters long.  
+
+Each entry is represented by one line starting ``<linenumber> e$(x)="        entry name         "``
+with centered text,  where ```x``` is the current entry order.  
+Edit your entries manually in order they will be presented.
+Try to keep the entries text centered.    
 DO NOT change the length of the lines. That will destroy the picture in memory.  
 Remember to press ``RETURN`` after editing each line to let them store into memory.
 Replace dots with spaces in emply lines, if you add text to them.
 Keep text in the lines to be centered (add some spaces in the beginning):
 - Example:
-```10050 e$(6)="        new entry by author/group          "```
+```10050 e$(6)="          the new compoentry          "```
 Leave unused lines intact!
 
 example:
 If you have 5 entries in the compo:
 ```
-10000 e$(1)="          compoentry1 by author1          "
-10010 e$(2)="          compoentry2 by author2          "
-10020 e$(3)="          compoentry3 by author3          "
-10030 e$(4)="          compoentry4 by author4          "
-10040 e$(5)="          compoentry5 by author5          "
-10050 e$(6)="                                          "
-10060 e$(7)="                                          "
+10000 e$(1)="          compoentry1           "
+10010 e$(2)="          compoentry2           "
+10020 e$(3)="          compoentry3           "
+10030 e$(4)="          compoentry4           "
+10040 e$(5)="          compoentry5           "
+10050 e$(6)="                                "
+10060 e$(7)="                                "
 ...
 ```
-After finished editing, type ```run``` and hit RETURN.
+After finished editing, type ```goto10``` and hit RETURN.  
+DO NOT TYPE ```run```! It would destroy the Basic variables.  
 
-2. Press ``1`` to set amount of entries. This is just how many entries you have entered  
-in the previous step. This step is mandatory!
+2. You can list entries that will be used by pressing ``2``.
 
-3. You can list entries that will be used by pressing ``3``.
+3. SAVE the whole program to the disk or D64 image! Like ``SAVE"YOURCOMPONAME",8,1``
 
-4. Set up the compo name by pressing ``2`` and entering name. Like "graphics", "music", "1k intro", etc.  
-This step is mandatory! Pressing RETURN sets the string to 'testcompo'.  
+4. During the compos, LOAD the corresponding program version you have created for each compo.
 
-5. SAVE the whole program to the disk or D64 image! Like ``SAVE"YOURCOMPONAME",8,1``
-
-6. During the compos, LOAD the corresponding program version you have created for each compo.
-
-7. Start the compo by pressing ``0``. The ``coming up <yourcomponame>`` message appears,
+5. Start the compo by pressing ``0``. The ``coming up <yourcomponame>`` message appears,
    you're ready to switch this screen to the beamer screen.
 
-Pressing ``SPACE`` will advance to the next compo entry.
+Pressing ``RETURN`` will advance to the next compo entry.
 
-After reaching the last entry, pressing ``SPACE`` will show ``<yourcomponame> compo end`` message
+After reaching the last entry, pressing ``RETURN`` will show ``<yourcomponame> compo end`` message
 and then gets you back to the main menu.
