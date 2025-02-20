@@ -46,7 +46,9 @@ https://nurpax.github.io/petmate/
 - Load PARTYLEBEN in an emulator (preferrably VICE https://vice-emu.sourceforge.io/)  
 and enter the emulator monitor (alt-M in WinVICE).
 - Load your image using command ```l "IMGNAME" 08 8000``` (name has to be in capital letters)  
-- exit the monitor with command '''x'''  
+- exit the monitor with command '''x'''
+- IMPORTANT: perform loading the image each time you change the Basic program length!!!
+  (see menu option 3 with instructions)  
 
 ## usage
 The program is used for a single compo, like the music compo only, graphics compo only, etc...    
