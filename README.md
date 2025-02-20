@@ -95,10 +95,9 @@ DO NOT TYPE ```run```! It would destroy the Basic variables.
 5. Start the compo by pressing ``0``. The ``coming up <yourcomponame>`` message appears,
    you're ready to switch this screen to the beamer screen.
 
-Thanks to ```Loki``` for comments and suggestions.  
-
-
 Pressing ``RETURN`` will advance to the next compo entry.
 
 After reaching the last entry, pressing ``RETURN`` will show ``<yourcomponame> compo end`` message
 and then gets you back to the main menu.
+
+Thanks to ```Loki``` for comments and suggestions.  
