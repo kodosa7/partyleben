@@ -45,7 +45,7 @@ https://nurpax.github.io/petmate/
 - Save it as an ASM file and compile it to address $8000 WITHOUT the BASIC line.  
 - Load PARTYLEBEN in an emulator (preferrably VICE https://vice-emu.sourceforge.io/)  
 and enter the emulator monitor (alt-M in WinVICE).
-- Load your image using command ```l "IMGNAME" 08 8000``` (name has to be in capital letters)  
+- Load your image using command ```l "LOGO" 08 8000``` (name has to be in capital letters)  
 - exit the monitor with command '''x'''
 - IMPORTANT: perform loading the image each time you change the Basic program length!!!
   (see menu option 3 with instructions)  
@@ -94,6 +94,9 @@ DO NOT TYPE ```run```! It would destroy the Basic variables.
 
 5. Start the compo by pressing ``0``. The ``coming up <yourcomponame>`` message appears,
    you're ready to switch this screen to the beamer screen.
+
+Thanks to ```Loki``` for comments and suggestions.  
+
 
 Pressing ``RETURN`` will advance to the next compo entry.
 
